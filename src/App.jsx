@@ -79,13 +79,14 @@ function App() {
       <Quiz>
         {showScore ? (
           <Container>
-            <Text>Любимый мой <span>{arrWords[0]}</span>, который всегда <span>{arrWords[1]}</span>, но такой сладкий
+            <Text>Любимый мой <span>{arrWords[0]}</span>, который всегда <span>{arrWords[1]}</span> и такой сладкий
               как <span>{arrWords[2]}</span></Text>
-            <Text>Отправь прокомод<span> ДАМТЫКНУТЬВЖЕППУ </span><br />коте в личку и получи подарок</Text>
+            <Text>Я не смогла уговорить <span>{arrWords[4]}</span> приехать на романтический ужин с тобой. Но в качестве утешения отправь
+              прокомод<span> ДАМТЫКНУТЬВЖЕППУ </span><br />коте в личку и получи подарок</Text>
           </Container>
         ) : (
           <div>
-            <Title>...квиз! Выбери один из вариантов</Title>
+            <Title>...опросник! Выбери один из вариантов</Title>
             {textArr[currentQuestion].answerOptions.map((text, index) => (
               <Button key={index} onClick={() => handleAnswerOptionClick(index)}>
                 {text.buttonText}

@@ -19,14 +19,20 @@ export const textArr = [
     },
     {
         answerOptions: [
-            {buttonText: 'тест', isTrue: false},
-            {buttonText: 'тестовый', isTrue: false},
+            {buttonText: 'Слава', isTrue: false},
+            {buttonText: 'Украине', isTrue: false},
         ]
     },
     {
         answerOptions: [
-            {buttonText: 'у меня красивая жеппа', isTrue: false},
-            {buttonText: 'у меня красивая жеппа', isTrue: false},
+            {buttonText: 'Ульянку', isTrue: false},
+            {buttonText: 'Бацку', isTrue: false},
+        ]
+    },
+    {
+        answerOptions: [
+            {buttonText: 'Паляница', isTrue: false},
+            {buttonText: 'Сыктывкар', isTrue: false},
         ]
     },
 ]
